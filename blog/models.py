@@ -6,8 +6,6 @@ from django.contrib.contenttypes.fields import GenericRelation
 # Create your models here.
 
 
-
-
 class Tag(models.Model):
     value = models.TextField(max_length=100)
 
